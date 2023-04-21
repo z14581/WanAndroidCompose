@@ -19,7 +19,7 @@ object RetrofitUtil {
     }
 
      val retrofit by lazy {
-         println("RetrofitUtil   初始化   retrofit")
+         println("RetrofitUtil   初始化   retrofit  11")
         Retrofit.Builder()
             .baseUrl(BASE_URL)
             .client(client)
